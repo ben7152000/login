@@ -23,7 +23,7 @@
 `npm run dev`
 
 4. 使用瀏覽器瀏覽</br>
->打開瀏覽器在網址列輸入 localhost:3000 即可瀏覽
+> 打開瀏覽器在網址列輸入 localhost:3000 即可瀏覽
 
 ## 功能描述 (Features)
 1. 能輸入帳號密碼做登入
@@ -31,8 +31,18 @@
 3. 如輸入錯誤，會跳出錯誤畫面
 
 ## 測試帳號 (Account)
-1. name : Tony, email : tony@stark.com, password : iamironman
-2. name : Steve, email : captain@hotmail.com, password : icandothisallday
-3. name : Peter, email : peter@parker.com, password : enajyram
-4. name : Natasha, email : natasha@gamil.com, password : *parol#@$!
-5. name : Nick, email : nick@shield.com, password : password
+1. Tony
+> Email : tony@stark.com
+> Password : iamironman
+2. Steve 
+> Email : captain@hotmail.com
+> Password : icandothisallday
+3. Peter
+> Email : peter@parker.com
+> Password : enajyram
+4. Natasha
+> Email : natasha@gamil.com
+> Password : *parol#@$!
+5. Nick
+> Email : nick@shield.com
+> Password : password
