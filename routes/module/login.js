@@ -1,17 +1,16 @@
 const express = require('express')
 const router = express.Router()
+const users = require('../../users.json')
 
-const login = function (req, res, next) {
-  console.log('ok')
-  next()
-}
-
-router.get('/', login, (req, res) => {
+router.get('/', (req, res) => {
   res.render('index')
 })
 
 router.post('/', (req, res) => {
-  res.redirect('/admin')
+  const email = req.body.Email
+  const password = req.body.Password
+  const user = users.results.find(user => user.email === email && user.password === password)
+  user === undefined ? res.render('error') : res.render('admin', { user })
 })
 
 module.exports = router

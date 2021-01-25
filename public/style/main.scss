@@ -1,0 +1,25 @@
+@import "./scss/index";
+@import "./scss/admin";
+@import "./scss/error";
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url("../image/P1.JPG") no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
